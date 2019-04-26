@@ -55,17 +55,17 @@ configuration:
           value: 1
         - name: Trace
           value: 2
-  rest:
-    endpointDescription: Telegram API endpoint
-    endpointLabel: REST Endpoint
-    checkConnectionUri: /user
-    authSchemes:
-      query:
-        userNameLabel: sample
-        passwordLabel: sample
-        description: sample
-        checkConnectionUri: /{{credential.token}}/getMe
-        credentialLabel: Token
+#  rest:
+#    endpointDescription: Telegram API endpoint
+#    endpointLabel: REST Endpoint
+#    checkConnectionUri: /user
+#    authSchemes:
+#      query:
+#        userNameLabel: sample
+#        passwordLabel: sample
+#        description: sample
+#        checkConnectionUri: /{{credential.token}}/getMe
+#        credentialLabel: Token
   checkConnection: true
   customCheckConnection: true
 
